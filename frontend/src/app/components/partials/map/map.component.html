@@ -1,0 +1,7 @@
+<div class="container">
+  <button *ngIf = "!readonly" class="find-location" (click)="findMyLocation()">
+    Find My Location
+  </button>
+  <!-- #map is a angular componenet to access div as well as map.component.ts -->
+  <div #map class ="map"></div>
+</div>
